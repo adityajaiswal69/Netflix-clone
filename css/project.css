@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    font-family: netflix_regular ;
+    margin: 0;
+}
+body{
+    background: #000;
+}
+h1{
+    font-family: netflix_bold, Helvetica,roboto;
+}
+p{
+    font-family: netflix_light;
+}
+@font-face {
+    font-family: netflix_bold;
+    src: url(/netfilix/Fonts/NetflixSans-Bold.woff2);
+}
+
+@font-face {
+    font-family: netflix_regular;
+    src: url(/netfilix/Fonts/NetflixSans-Regular.otf);
+}
+
+@font-face {
+    font-family: netflix_medium;
+    src: url(/netfilix/Fonts/NetflixSans-Medium.otf);
+}
+
+@font-face {
+    font-family: netflix_light;
+    src: url(/netfilix/Fonts/NetflixSans-Light.otf);
+}
+#logo{
+    width: 181px;
+    margin-top: -17px;
+    margin-left: 132px;
+
+}
+#navbar{
+    height: 10%;
+    
+
+
+}
+#btns{
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+    margin-right: 163px;
+}
+#sign{
+    background-color: rgb(229, 9, 19);
+    padding: 8px 15px;
+    border:none;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: -1px;
+    margin-top: 10px;
+    margin-left:15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#sign:hover{
+    opacity: 0.9;
+}
+#lang{
+    background-color: transparent;
+    padding: 8px 28px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: -2px;
+
+
+}
+#bg{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%), url('../img/bg.jpg');
+    height: 650px;
+    background-position: 70%;
+    
+   
+}
+
+#btns span{
+
+    position: absolute;
+    color: white;
+   margin-left: 7px;
+    margin-top: 15px;
+    font-size: 19px;
+}
+#text-container{
+    margin-top: 200px;
+    font-size: 25px;
+   
+    font-family: netflix_regular;
+    
+    text-align: center;
+ 
+   
+}
+#text-container h1{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#text-container p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#email{
+    
+    margin-left: 397px;
+    
+}
+#email input{
+    background-color: #1618178f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    border: solid 0.1px #606261;
+    
+    
+    padding-top: 19px;
+    padding-right: 134px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+#get{
+    background-color:rgb(229, 9, 19);
+    margin-left:10px ;
+    color: #fff;
+    
+    font-size: 23px;
+    border-radius: 5px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-right:31px ;
+    padding-left:17px;
+    background: solid;
+    transition: inherit;
+    
+   
+}
+#divider{
+    padding: 5px;
+    background-color: rgb(22, 21, 21);
+    border: none;
+}
+
+#second{
+    justify-content: center;
+    display: flex;
+    padding: 20px 40px;
+    height: 450px;
+    color: #fff;
+}
+#col-left h1{
+    font-size: 48px;
+    padding-top: 163px;
+}
+#col-left p{
+    font-size: 21px;
+    width: 498px;
+}
+    
+   
+#heading2{
+    color: #fff;
+    font-size:25px;
+    
+}
+#tv1{
+    width: 500px;
+    margin-top: 45px;
+    margin-left: 12px;
+}
+#tv video{
+  
+    position: absolute;
+    width: 362px;
+    margin-left: -433px;
+    margin-top: 124px;
+    z-index: -1;
+}
+#third{
+    justify-content: center;
+    display: flex;
+    padding: 20px 40px;
+    height: 450px;
+    color: #fff;
+    margin-right: 127px;
+}
+#col-right h1{
+        font-size: 51px;
+        padding-top: 93px;
+        font-weight: bolder;
+        text-align: left;
+
+    }
+#col-right p{  
+    font-size: 21px;
+    
+    width: 422px;
+}
+
+
+#mob{
+    
+    margin-left: 125px;
+    width: 500px;
+    margin-top: 34px;
+}
+#card{
+    background: #000;
+    padding: 10px 10px;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    border-color: #606261;
+    width:245px;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    left: 180px;
+    z-index: 1;
+    margin-top: 274px;
+    margin-left: 99px;
+    justify-content: space-between;
+
+}
+#boxshot{
+    
+    width: 50px;
+    left: 50px
+}
+
+#fourth{
+    
+    justify-content: center;
+    display: flex;
+    padding: 20px 40px;
+    height: 450px;
+    color: #fff;
+}
+
+#col-fourth h1{
+    font-size: 55px;
+    padding-top: 163px;
+
+}
+#col-fourth p{
+    font-size: 21px;
+    
+    width: 422px;
+
+}
+#mac img{
+    width: 500px;
+    margin-top: 46px;
+}
+#mac video{
+    
+    position: absolute;
+    margin-left: -405px;
+    margin-top: 93px;
+    width: 306px;
+    z-index: -1;
+}
+#fifth{
+    justify-content: center;
+    padding: 25px 20px;
+    display: flex;
+    color: #fff;
+    margin-left: 50px;
+    height: 450px;
+}
+#fifth img{
+    width: 520px;
+    margin-top: 32px;
+    margin-left: 50px;
+
+}
+#kid{
+    margin-right: 91px;
+    margin-top: -27px;
+}
+#fifth h1{
+    font-size: 51px;
+    padding-top: 163px;
+
+}
+#fifth p{
+    font-size: 21px;
+    
+    width: 422px;
+
+}
+#sixth{
+    color: #fff;
+    height: 800px;
+    
+    text-align: center;
+    padding: 10px 12%;
+    
+}
+#sixth h1{
+    font-size: 50px;
+    
+
+}
+#accordion{
+    margin: 20px auto;
+    width: 100%;
+ 
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+#accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #303030;
+    position: relative;
+    cursor: pointer;
+    border: #000;
+
+}
+label svg{
+    right: 29px;
+    position: absolute;
+    
+    
+}
+
+label ::after{
+    
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+#content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    border: #000;
+
+}
+#accordion input[type="checkbox"]:checked + label +  #content{
+    max-height: 800px;
+    padding: 40px 20px;
+    border: #000;
+    
+}
+#accordion input[type="checkbox"]:checked + label svg{
+  
+    transform:rotate(45deg) ;
+    transition: none;
+    
+}
+
+svg{
+    align-items: right;
+}
+#email2 {
+    align-items: center;
+}
+#email2 input{
+    margin-top: 10px;
+    background-color: #1618178f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    border: solid 0.1px #606261;
+    
+    
+    padding-top: 19px;
+    padding-right: 134px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.last{
+    height: 350px;
+    color: rgba(255,255,255,0.7);
+}

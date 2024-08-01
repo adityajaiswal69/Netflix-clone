@@ -114,7 +114,7 @@ p{
 }
 #email{
     
-    margin-left: 397px;
+    margin-left: 500px;
     
 }
 #email input{
@@ -398,6 +398,30 @@ svg{
     padding-left: 15px;
 }
 .last{
+    padding: 50px 12%;
     height: 350px;
     color: rgba(255,255,255,0.7);
+}
+
+
+footer .footer-links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer ul  li{
+    list-style: none;
+
+    
+    
+
+}
+footer ul  li a{
+    color: #bfbfbf;
 }
